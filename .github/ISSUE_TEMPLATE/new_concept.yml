@@ -1,24 +1,30 @@
-name: "💡 Feature Request"
-description: Create a new ticket for a new feature request
+name: "💡 New concept request"
+description: Make a request for a new data component concept
 title: "💡 [REQUEST] - <title>"
 labels: [
-  "question"
+  "new concept"
 ]
 body:
-  - type: input
-    id: start_date
+  - type: dropdown
+    id: category
     attributes:
-      label: "Start Date"
-      description: Start of development
-      placeholder: "month/day/year"
+      label: "Concept category"
+      description: What category of data component you are requesting?
+      multiple: false
+      options:
+        - Structured Document
+        - Section
+        - Data group
+        - Data Element
+        - Choice
     validations:
-      required: false
-  - type: textarea
-    id: implementation_pr
+      required: true
+  - type: input
+    id: required_date
     attributes:
-      label: "Implementation PR"
-      description: Pull request used
-      placeholder: "#Pull Request ID"
+      label: "Required Date"
+      description: When is the concept required by
+      placeholder: "day/month/year"
     validations:
       required: false
   - type: textarea

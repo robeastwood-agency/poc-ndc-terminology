@@ -10,7 +10,7 @@ body:
     id: category
     attributes:
       label: "Concept category"
-      description: What category of data component you are requesting?
+      description: What category of data component you are requesting? Note that Technical concepts such as those related to configuration settings will be rejected.
       multiple: false
       options:
         - Structured Document

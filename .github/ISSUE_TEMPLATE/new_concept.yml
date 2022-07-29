@@ -1,6 +1,7 @@
 name: "💡 New concept request"
 description: Make a request for a new data component concept
 title: "💡 [REQUEST] - <title>"
+assignees: robeastwood-agency
 labels: [
   "new concept"
 ]
@@ -19,51 +20,51 @@ body:
         - Choice
     validations:
       required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "Concept description"
+      description: Short description of what will be identified by this code
+      placeholder: "TODO"
+    validations:
+      required: true
+  - type: input
+    id: preferred_name
+    attributes:
+      label: "Preferred concept display"
+      description: Your preferred text for the associated display of the code 
+      placeholder: "TODO"
+    validations:
+      required: false
+  - type: textarea
+    id: relationship
+    attributes:
+      label: "Relationships to existing concepts"
+      description: Describe any known relationships to existing concepts 
+      placeholder: "TODO"
+    validations:
+      required: false
+  - type: input
+    id: project_name
+    attributes:
+      label: "Project name"
+      description: The project that requires this concept
+      placeholder: TODO
+    validations:
+      required: true
+  - type: textarea
+    id: project_description
+    attributes:
+      label: "Project description"
+      description: The description of the project, is not already known
+      placeholder: TODO
+    validations:
+      required: false
   - type: input
     id: required_date
     attributes:
       label: "Required Date"
       description: When is the concept required by
       placeholder: "day/month/year"
-    validations:
-      required: false
-  - type: textarea
-    id: reference_issues
-    attributes:
-      label: "Reference Issues"
-      description: Common issues
-      placeholder: "#Issues IDs"
-    validations:
-      required: false
-  - type: textarea
-    id: summary
-    attributes:
-      label: "Summary"
-      description: Provide a brief explanation of the feature
-      placeholder: Describe in a few lines your feature request
-    validations:
-      required: true
-  - type: textarea
-    id: basic_example
-    attributes:
-      label: "Basic Example"
-      description: Indicate here some basic examples of your feature.
-      placeholder: A few specific words about your feature request.
-    validations:
-      required: true
-  - type: textarea
-    id: drawbacks
-    attributes:
-      label: "Drawbacks"
-      description: What are the drawbacks/impacts of your feature request ?
-      placeholder: Identify the drawbacks and impacts while being neutral on your feature request
-    validations:
-      required: true
-  - type: textarea
-    id: unresolved_question
-    attributes:
-      label: "Unresolved questions"
-      description: What questions still remain unresolved ?
-      placeholder: Identify any unresolved issues.
     validations:
       required: false

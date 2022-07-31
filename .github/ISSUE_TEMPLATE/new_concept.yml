@@ -1,6 +1,6 @@
 name: "💡 New concept request"
 description: Make a request for a new data component concept (create one issue per concept)
-title: "💡 [REQUEST] - <title>"
+title: "💡 [REQUEST] - new code <title>"
 assignees: robeastwood-agency
 labels: [
   "new concept"

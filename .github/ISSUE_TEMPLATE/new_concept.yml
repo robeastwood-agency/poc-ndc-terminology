@@ -1,5 +1,5 @@
 name: "💡 New concept request"
-description: Make a request for a new data component concept
+description: Make a request for a new data component concept (create one issue per concept)
 title: "💡 [REQUEST] - <title>"
 assignees: robeastwood-agency
 labels: [
@@ -10,7 +10,9 @@ body:
     id: category
     attributes:
       label: "Concept category"
-      description: What category of data component you are requesting? Note that Technical concepts such as those related to configuration settings will be rejected.
+      description: |
+        The category of data component that is being requested (i.e. document, section, element...)? 
+        Note that Technical concepts such as those related to configuration settings will be rejected.
       multiple: false
       options:
         - Structured Document
@@ -25,23 +27,24 @@ body:
     attributes:
       label: "Concept description"
       description: Short description of what will be identified by this code
-      placeholder: "TODO"
+      placeholder: "description..."
     validations:
       required: true
   - type: input
     id: preferred_name
     attributes:
-      label: "Preferred concept display"
-      description: Your preferred text for the associated display of the code 
-      placeholder: "TODO"
+      label: "Preferred concept name"
+      description: |
+        Your preferred text for the associated display of the code.
+        Note that concept name will be subject to the naming conventions of the NCTIS Data Components coding system. Where a mismatch is identified the submitter will be contacted to ensure an appropriate concept name can be registered.
     validations:
-      required: false
+      required: true
   - type: textarea
     id: relationship
     attributes:
       label: "Relationships to existing concepts"
       description: Describe any known relationships to existing concepts 
-      placeholder: "TODO"
+      placeholder: "description..."
     validations:
       required: false
   - type: input
@@ -49,22 +52,21 @@ body:
     attributes:
       label: "Project name"
       description: The project that requires this concept
-      placeholder: TODO
     validations:
       required: true
   - type: textarea
     id: project_description
     attributes:
       label: "Project description"
-      description: The description of the project, is not already known
-      placeholder: TODO
+      description: The description of the project, if not already known
+      placeholder: "description..."
     validations:
       required: false
   - type: input
     id: required_date
     attributes:
       label: "Required Date"
-      description: When is the concept required by
+      description: When the concept is required by
       placeholder: "day/month/year"
     validations:
       required: false

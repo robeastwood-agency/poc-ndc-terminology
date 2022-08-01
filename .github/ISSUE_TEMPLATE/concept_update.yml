@@ -1,0 +1,31 @@
+name: "\U0001F680 Concept update request"
+description: Create a new ticket requesting an update to an existing concept (e.g. revision of display, new synonym etc)
+title: "\U0001F680 [UPDATE] - <title>"
+labels: [
+  "update"
+]
+body:
+  - type: input
+    id: concept
+    attributes:
+      label: "Data component concept"
+      description: Please enter the code and description of the concept
+      placeholder: e.g. 103.16183 Adequacy for Testing
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: "Update description"
+      description: Please enter an explicit description of update request
+      placeholder: Short and explicit description of the requested update to the concept...
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: "Update reason"
+      description: Please describe why the update is requestded
+      placeholder: Short and explicit description of the reason...
+    validations:
+      required: true

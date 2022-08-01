@@ -1,4 +1,4 @@
-name: "\U0001F680 Concept update request"
+name: "\U0001F680 Request an update to an existing concept"
 description: Create a new ticket requesting an update to an existing concept (e.g. revision of display, new synonym etc)
 title: "\U0001F680 [UPDATE] - <title>"
 labels: [

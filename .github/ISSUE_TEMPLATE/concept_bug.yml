@@ -1,4 +1,4 @@
-name: "🐛 Concept Bug"
+name: "🐛 Report a bug with a concept"
 description: Create a new ticket for a bug releated to a specific concept (e.g. typos, grammar etc)
 title: "🐛 [BUG] - <title>"
 labels: [

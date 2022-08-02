@@ -2,6 +2,8 @@
 
 ## version 1.10.0 (31 Dec 2021)
 
+permalink: https://www.healthterminologies.gov.au/integration/R4/fhir/CodeSystem/nctis-data-components-1.10.0
+
 The changes include:
 
 ## New concepts

@@ -18,6 +18,7 @@ body:
       label: "Concept category"
       description: |
         The category of data component that is being requested (i.e. document, section, element...)?
+        Note that analysis may determine that a differing category may be required (i.e. what you thought was a section is actually a data group).
       multiple: false
       options:
         - Structured Document

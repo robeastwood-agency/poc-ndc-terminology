@@ -18,7 +18,7 @@ body:
       label: "Concept category"
       description: |
         The category of data component that is being requested (i.e. document, section, element...)?
-        Note that analysis may determine that a differing category may be required (i.e. what you thought was a section is actually a data group).
+        _Note that analysis may determine that a differing category may be required (e.g. what you thought was a section is actually a data group)_.
       multiple: false
       options:
         - Structured Document
@@ -42,7 +42,7 @@ body:
       label: "Preferred concept name"
       description: |
         Your preferred text for the associated display of the code.
-        Note that concept name will be subject to the naming conventions of the NCTIS Data Components coding system. Where a mismatch is identified the submitter will be contacted to ensure an appropriate concept name can be registered.
+        _Note that concept name will be subject to the naming conventions of the NCTIS Data Components coding system. Where a mismatch is identified the submitter will be contacted to ensure an appropriate concept name can be registered._
     validations:
       required: true
   - type: textarea

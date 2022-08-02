@@ -17,7 +17,7 @@ code  | display  | synonyms
 `101.32046`  | Health Program Information  | 
 `101.32047`  | Disease Screening Program Information  |  Population Based Health Screening Program Information
 
-## Concepts
+## Concept updates
 The following existing concepts were updated:
 * none
 

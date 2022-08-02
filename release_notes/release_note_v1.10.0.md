@@ -32,5 +32,5 @@ These concepts had the following fixes:
 
 code  | fix
 ------------- | ------------- 
-`101.32036`  | the erroneous hyphen was removed from the concept display and definition values; now they are both `Immunisations AIR`
-`101.32037`  | the erroneous hyphen was removed from the concept display and definition values; now they are both `Immunisations MHR and AIR` 
+`101.32036`  | the erroneous hyphen was removed from the concept display and definition values; now both are `Immunisations AIR`
+`101.32037`  | the erroneous hyphen was removed from the concept display and definition values; now both are `Immunisations MHR and AIR` 

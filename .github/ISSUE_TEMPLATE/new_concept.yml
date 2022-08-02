@@ -6,13 +6,18 @@ labels: [
   "new concept"
 ]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Note
+        1. Technical concepts such as those related to configuration settings will be rejected.
+        2. Concepts may be found in international sources, such as LOINC, rather than be created in the NDC.
   - type: dropdown
     id: category
     attributes:
       label: "Concept category"
       description: |
-        The category of data component that is being requested (i.e. document, section, element...)? 
-        Note that Technical concepts such as those related to configuration settings will be rejected.
+        The category of data component that is being requested (i.e. document, section, element...)?
       multiple: false
       options:
         - Structured Document
